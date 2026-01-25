@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,20 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Título e descrição -->
-    <title>LPS TECH</title>
+    <title>LPS Digital Hub | Soluções Tecnológicas</title>
     <meta name="description"
-        content="Serviços de tecnologia, manutenção e otimização de sistemas. Soluções modernas para o seu negócio.">
+        content="Especialistas em soluções digitais, manutenção e otimização de sistemas. Transformamos tecnologia em resultados para o seu negócio.">
     <meta name="keywords" content="tecnologia, informática, suporte técnico, manutenção, otimização, sistemas">
     <meta name="author" content="Lucas Pedro de Souza">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph para redes sociais -->
-    <meta property="og:title" content="LPS TECH">
-    <meta property="og:description"
-        content="Serviços de tecnologia, manutenção e otimização de sistemas. Soluções modernas para o seu negócio.">
+    <meta property="og:title" content="LPS Digital Hub | Soluções Tecnológicas">
+    <meta property="og:description" content="Serviços de tecnologia, manutenção e otimização de sistemas. Soluções modernas para o seu negócio.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.seusite.com">
-    <meta property="og:image" content="https://www.seusite.com/imagem-de-preview.png">
+    <meta property="og:url" content="https://www.www.lpsdigitalhub.com.br">
+    <meta property="og:image" content="https://www.lpsdigitalhub.com.br/lps-og-image">
     <meta property="og:image:alt" content="Logo LPS TECH">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="LPS TECH">
@@ -32,22 +31,23 @@
     <!--Fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
 
     <!-- Tema de cor para navegadores móveis -->
     <meta name="theme-color" content="#4A90E2">
+
+    <!--Evitar que o Google ache ser conteúdo duplicado-->
+    <link rel="canonical" href="https://www.lpsdigitalhub.com.br">
 </head>
 
 <body>
     <div id="barraProgresso"></div>
     <header>
         <div class="container">
-            <img class="logo" src="Assets/LPS TECH.png" alt="LPS TECH">
+            <img class="logo" src="Assets/lps-logo.svg" alt="LPS TECH">
 
             <!-- Menu Hamburger -->
             <div class="hamburger" id="hamburger">
@@ -61,6 +61,7 @@
                 <ul class="menu">
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#avaliacoes">Avaliações</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
@@ -69,8 +70,8 @@
 
     <section id="hero" class="hero">
         <div class="container">
-            <h1>Inovação e Tecnologia ao seu alcance</h1>
-            <p>Reparo, upgrade e sites personalizados com rapidez e atenção aos detalhes.</p>
+            <h1>Soluções digitais inteligentes para quem não pode parar.</h1>
+            <p>Suporte técnico especializado, criação de sites e consultoria em TI com foco em agilidade e transparência para o seu negócio.</p>
             <a href="#contato" class="btn">Fale Conosco</a>
         </div>
         <div class="hero-cards">
@@ -92,19 +93,18 @@
         </div>
     </section>
 
-    <section id="sobre" class="sobre">
+    <section id="sobre" class="sobre" class="scroll-anim">
         <div class="sobre-container">
 
             <!-- Lado esquerdo: texto + cards -->
             <div class="sobre-left">
                 <h2>Quem Sou</h2>
                 <p>
-                    Olá! Eu sou Lucas Pedro de Souza, a mente por trás da LPS TECH. Apaixonado por tecnologia, adoro
-                    transformar ideias em soluções práticas e eficientes. Cada projeto recebe atenção total porque aqui
+                    Olá! Eu sou Lucas Pedro de Souza, a mente por trás da LPS Digital Hub. Apaixonado por tecnologia, adoro
+                    transformar ideias em soluções práticas e eficientes. Cada projeto recebe <strong>atenção total</strong> porque aqui
                     não existe “time grande” — existe dedicação completa ao seu sucesso.<br /><br />
                     Com foco em inovação, simplicidade e resultados, trabalho para que cada cliente se sinta único,
-                    entendendo suas
-                    necessidades e entregando soluções que realmente funcionam.<br /><br />
+                    entendendo suas necessidades e entregando soluções que realmente funcionam.<br /><br />
                     Se você procura alguém que combine criatividade, técnica e comprometimento, você acabou de
                     encontrar. 💡
                 </p>
@@ -127,7 +127,7 @@
             <!-- Lado direito: avatar/foto -->
             <div class="sobre-right">
                 <div class="avatar-container">
-                    <img src="Assets/avatar.png" alt="Lucas Pedro de Souza" class="avatar">
+                    <img src="Assets/avatar.webp" alt="Lucas Pedro de Souza" class="avatar">
                 </div>
             </div>
 
@@ -136,35 +136,67 @@
 
 
 
-    <section id="servicos" class="servicos">
+    <section id="servicos" class="servicos" class="scroll-anim">
         <div class="container">
             <h2>Serviços</h2>
             <div class="cards">
                 <div class="card">
-                    <h3>Manutenção</h3>
-                    <p>De notebooks a desktops, realizo reparos, upgrades e formatações com rapidez e segurança,
-                        deixando seus dispositivos funcionando como novos.</p>
+                    <h3>Suporte e Otimização de Infraestrutura</h3>
+                    <p>Mais do que consertar, nós otimizamos. Upgrades de performance e manutenção preventiva para garantir que seus equipamentos entreguem o máximo de potência.</p>
                 </div>
                 <div class="card">
                     <h3>Consultoria</h3>
-                    <p>Avalio seu sistema e ofereço soluções práticas para problemas técnicos, ajudando você a otimizar
-                        seu computador ou seu projeto digital.</p>
+                    <p>Avalio seu sistema e ofereço soluções práticas para problemas técnicos, ajudando você a otimizar seu computador ou seu projeto digital.</p>
                 </div>
                 <div class="card">
-                    <h3>Criação de sites</h3>
-                    <p>Desenvolvo sites e landpages personalizadas, focadas em design moderno, performance e resultados
-                        reais para seu negócio.</p>
+                    <h3>Desenvolvimento Web Estratégico</h3>
+                    <p>Landing pages e sites institucionais projetados para converter visitantes em clientes, com design moderno, SEO avançado e foco em performance.</p>
                 </div>
                 <div class="card">
                     <h3>Atendimento personalizado e rígidez com prazos definidos</h3>
-                    <p>Cada cliente recebe atenção exclusiva, com comunicação clara e prazos definidos. Aqui, sua
-                        demanda é prioridade e compromisso é palavra.</p>
+                    <p>Cada cliente recebe atenção exclusiva, com comunicação clara e prazos definidos. Aqui, sua demanda é prioridade e compromisso é palavra.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="contato">
+    <section id="avaliacoes" class="avaliacoes" class="scroll-anim">
+        <div class="container">
+            <h2>Resultados reais de quem decidiu evoluir</h2>
+            <p>A confiança de quem já transformou sua tecnologia com a LPS</p>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="estrelas">★★★★★</div>
+                    <p>Minha produtividade mudou. O notebook está voando e a entrega foi extremamente rápida. Trabalho nota 10!</p>
+                    <div class="cliente">
+                        <strong>André</strong>
+                        <small>Cliente</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="estrelas">★★★★★</div>
+                    <p>Excelente profissional! Resolveu um problema crítico que ninguém mais conseguia, com agilidade e transparência. Recomendo muito.</p>
+                    <div class="cliente">
+                        <strong>Enzo Piton</strong>
+                        <small>Advogado</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="estrelas">★★★★★</div>
+                     <p>O suporte da LPS salvou meu setup. A lentidão que me atrapalhava sumiu e o atendimento foi impecável do início ao fim.</p>
+                    <div class="cliente">
+                        <strong>Lucas Malvezzi</strong>
+                        <small>Advogado</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato" class="scroll-anim">
         <div class="container">
             <h2>Entre em contato</h2>
             <p>Tem alguma dúvida ou quer solicitar um orçamento? Preencha o formulário abaixo e entrarei em contato o
@@ -201,8 +233,11 @@
         </div>
     </section>
 
-    <footer>
-        <p>© 2025 LPS TECH. Todos os direitos reservados.</p>
+    <a href="https://wa.me/5511958286191?text=Olá!%20Vi%20o%20site%20da%20LPS%20Digital%20Hub%20e%20gostaria%20de%20um%20orçamento." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"></a>
+
+    <footer class="scroll-anim">
+        <p>© 2025 LPS TECH por <strong>Lucas Pedro de Souza</strong>. Todos os direitos reservados.</p>
     </footer>
 
     <button id="btnTopo">⬆</button>
@@ -210,11 +245,7 @@
 
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script src="forms.js"></script>
-    <script src="btn-topo.js"></script>
-    <script src="loadbar.js"></script>
-    <script src="hash.js"></script>
-    <script src="btnmenu.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
